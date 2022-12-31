@@ -1,0 +1,92 @@
+.container {
+  max-width: 680px;
+  margin: auto;
+  font-size: 14px;
+}
+.ptable {
+  border-left: 1px solid #dee9ef;
+  border-top: 1px solid #dee9ef;
+}
+.ptable th,
+.ptable td {
+  border-right: 1px solid #dee9ef;
+  border-bottom: 1px solid #dee9ef;
+}
+.ptable .bigc {
+  background: #eff9ff;
+  padding: 0.3em 0 0.1em;
+}
+#btn {
+  border-radius: 2rem;
+  background: #eff9ff;
+  color: #ef2c2c;
+  box-shadow: 0.2rem 0.1rem 0.5rem 0.1rem;
+  cursor: pointer;
+  border-style: unset;
+  vertical-align: 1px;
+}
+.ptable th {
+  background: #fff;
+  text-align: center;
+}
+.ptable td {
+  background: #fafafa;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.ptable td a {
+  color: #039;
+}
+.ptable td[mp3] a:hover {
+  background-color: rgb(240, 210, 133);
+  color: #f40;
+}
+.ptable h3 {
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 150%;
+}
+.ptable h4 {
+  font-size: 1em;
+  font-weight: normal;
+}
+.ptable h5 {
+  font-size: 1em;
+  display: inline-block;
+  font-weight: normal;
+}
+.ptable a {
+  color: #333;
+  text-decoration: none;
+}
+.ptable .yb {
+  font-family: "Lucida Sans Unicode", arial, sans-serif;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 100%;
+  line-height: 220%;
+  padding: 0.75rem 0;
+  color: #039;
+}
+.ptable .ipa88 {
+  color: #c00;
+}
+.ptable .l1 {
+  width: 5rem;
+  text-align: center;
+}
+.ptable .l1 a {
+  font-size: 1em;
+  display: inline-block;
+  overflow: hidden;
+}
+.ptable .l2 {
+  width: 7rem;
+}
+
+.pageNext {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}

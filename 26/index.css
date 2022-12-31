@@ -1,0 +1,72 @@
+div.title26 {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+#btn {
+  border-radius: 2rem;
+  background: #eff9ff;
+  margin-left: 1rem;
+  color: #ef2c2c;
+  box-shadow: 0.2rem 0.1rem 0.5rem 0.1rem;
+  cursor: pointer;
+  border-style: unset;
+}
+.container {
+  max-width: 770px;
+  margin: auto;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(8, 6rem);
+  grid-template-rows: repeat(8, 6rem);
+  /* grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr)); */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  /* gap: 0px 0px; */
+  /* grid-auto-flow: row; */
+  grid-template-areas:
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . .";
+}
+
+.container .item {
+  text-align: center;
+  border: 1px solid #dee9ef;
+  color: #333;
+  line-height: 6rem;
+}
+.container .item.title {
+  background: #eff9ff;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.container .item.bg {
+  background: #f7f7f7;
+  font-size: 1.3em;
+}
+
+.container .item.red {
+  color: red;
+}
+.container .item.yinbiao {
+  color: #039;
+}
+.container .item.yinbiao:hover {
+  color: #f40;
+  background-color: rgb(240, 210, 133);
+  cursor: pointer;
+}
+
+.pagePre {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
